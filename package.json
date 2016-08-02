@@ -1,0 +1,25 @@
+{
+  "name": "doesgoogleexecutejavascript",
+  "version": "1.0.0",
+  "description": "Yes.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "google",
+    "javascript"
+  ],
+  "author": "Stephan Boyer",
+  "license": "MIT",
+  "dependencies": {
+    "compression": "^1.6.0",
+    "express": "^4.13.3",
+    "garnet": "^0.1.9",
+    "morgan": "^1.6.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/boyers/doesgoogleexecutejavascript.git"
+  }
+}
