@@ -4,6 +4,13 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
     <title>Does Google Execute JavaScript?</title>
+    <script>
+      document.addEventListener('DOMContentLoaded', function() {
+        document.getElementById('content').innerHTML =
+          '<h1>Yes,</h1>' +
+          '<h2>Google executes JavaScript, but only if it is embedded in the document.</h2>';
+      }, false);
+    </script>
     <script src="/script.js"></script>
     <script src="//platform.twitter.com/widgets.js"></script>
     <script>
