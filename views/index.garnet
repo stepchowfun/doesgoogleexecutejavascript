@@ -33,22 +33,21 @@
       }
 
       h1 {
-        margin: 32px 0 8px 0;
+        margin: 24px 0 24px 0;
         font-size: 10em;
         font-weight: bold;
         text-align: center;
       }
 
-      h2 {
-        margin: 8px 0 32px 0;
+      h2, p, ol {
+        max-width: 500px;
+        margin: 24px auto 24px auto;
         font-size: 1em;
-        font-weight: normal;
-        text-align: center;
+        line-height: 24px;
       }
 
-      p {
-        margin: 32px 0 32px 0;
-        text-align: center;
+      .pull-right {
+        text-align: right;
       }
     </style>
   </head>
@@ -58,6 +57,16 @@
       <h2>Google does not execute JavaScript.</h2>
     </div>
     <p>
+      This is an experiment to determine to what extent Google indexes dynamic content. The message above varies to indicate one of four possibilities:
+    </p>
+    <ol>
+      <li>The client does not execute JavaScript.</li>
+      <li>The client executes JavaScript, but only if it is embedded in the document.</li>
+      <li>The client executes JavaScript, even if the script is fetched from the network. However, the client does not make AJAX requests.</li>
+      <li>The client executes JavaScript and even makes AJAX requests.</li>
+    </ol>
+    <p>Google will index one of these messages&mdash;but which one? You can see the results of this experiment by <a href="https://www.google.com/search?q=site%3Adoesgoogleexecutejavascript.com">searching Google</a>.</p>
+    <p class="pull-right">
       <a
         href="https://twitter.com/stepchowfun"
         class="twitter-follow-button"
