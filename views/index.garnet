@@ -42,6 +42,7 @@
       h2, p, ol {
         max-width: 500px;
         margin: 24px auto 24px auto;
+        padding: 0 32px;
         font-size: 1em;
         line-height: 24px;
       }
