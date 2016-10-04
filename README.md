@@ -1,6 +1,6 @@
 # Does Google Execute JavaScript?
 
-Yes.
+Google executes JavaScript, even if the script is fetched from the network. However, Google does not make AJAX requests.
 
 ## License
 
